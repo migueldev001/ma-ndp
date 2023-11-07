@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ma-ndp/ma-ndp",
+  "version": "0.1.0",
+  "title": "MA Notas de prensa",
+  "category": "ma-blocks",
+  "icon": "slides",
+  "description": "Bloque para mostrar las notas de prensa",
+  "example": {},
+  "supports": {
+    "html": true
+  },
+  "textdomain": "ma-ndp",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "ultimosPosts": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

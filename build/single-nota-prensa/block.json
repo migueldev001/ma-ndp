@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ma-ndp/ma-single-nota",
+  "version": "0.1.0",
+  "title": "MA Nota de prensa",
+  "category": "widgets",
+  "icon": "align-full-width",
+  "description": "Bloque para mostrar una nota de prensa",
+  "example": {},
+  "supports": {
+    "html": true
+  },
+  "parent": [
+    "ma-ndp/ma-notas-de-prensa"
+  ],
+  "textdomain": "ma-ndp",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "enlace": {
+      "type": "string",
+      "default": ""
+    },
+    "notaPrensa": {
+      "type": "object",
+      "default": {}
+    }
+  }
+}
